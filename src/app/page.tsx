@@ -1,6 +1,10 @@
+import { Slider } from "@/components";
+
 const HomePage = () => {
   return (
- <></>
+ <>
+ <Slider/>
+ </>
   );
 };
 
