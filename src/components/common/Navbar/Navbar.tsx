@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* logo */}
       <div className="h-full flex items-center justify-between md:hidden">
         <Link href="/" className="uppercase text-2xl tracking-wider">
-          lama
+          logo
         </Link>
         <Menu />
       </div>
