@@ -5,7 +5,7 @@ import React from "react";
 const ProductList = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-12 gap-x-8 gap-y-12">
-      <Link href="" className="flex flex-col gap-4">
+      <Link href="/test" className="flex flex-col gap-4">
         <div className="relative w-full h-80">
           <Image
             src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
