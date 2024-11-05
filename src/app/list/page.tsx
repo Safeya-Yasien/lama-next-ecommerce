@@ -1,4 +1,4 @@
-import { Filter, ProductList } from "@/components";
+import { Filter } from "@/components";
 import Image from "next/image";
 import React from "react";
 
@@ -19,7 +19,13 @@ const List = () => {
         </div>
         {/* img */}
         <div className="relative w-1/3">
-          <Image src="/woman.png" alt="woman" fill sizes="25vm" className="object-contain" />
+          <Image
+            src="/woman.png"
+            alt="woman"
+            fill
+            sizes="25vm"
+            className="object-contain"
+          />
         </div>
       </div>
 

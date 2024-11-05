@@ -3,7 +3,6 @@ import {
   CustomizeProducts,
   ProductImages,
 } from "@/components";
-import Image from "next/image";
 import React from "react";
 
 const Slug = () => {
