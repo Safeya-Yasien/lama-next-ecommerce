@@ -3,7 +3,7 @@
 import { createClient, OAuthStrategy } from "@wix/sdk";
 import { products, collections } from "@wix/stores";
 import Cookies from "js-cookie";
-import { createContext, ReactNode, useContext } from "react";
+import { createContext, ReactNode } from "react";
 import { redirects } from "@wix/redirects";
 
 const refreshToken = JSON.parse(Cookies.get("refreshToken") || "{}");
