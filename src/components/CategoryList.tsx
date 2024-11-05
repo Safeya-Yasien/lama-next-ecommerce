@@ -9,12 +9,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>
@@ -25,12 +26,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>
@@ -41,12 +43,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>
@@ -57,12 +60,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>
@@ -73,12 +77,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>
@@ -89,12 +94,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>
@@ -105,12 +111,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>
@@ -121,12 +128,13 @@ const CategoryList = () => {
         <Link
           href=""
           className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
-          >
+        >
           <div className="relative w-full h-96 bg-slate-100">
             <Image
               src="https://images.pexels.com/photos/20832069/pexels-photo-20832069/free-photo-of-a-narrow-street-with-buildings-and-cars.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
               alt=""
               fill
+              sizes="20vw"
               className="object-cover"
             />
           </div>

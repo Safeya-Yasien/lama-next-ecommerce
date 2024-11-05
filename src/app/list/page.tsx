@@ -19,7 +19,7 @@ const List = () => {
         </div>
         {/* img */}
         <div className="relative w-1/3">
-          <Image src="/woman.png" alt="woman" fill className="object-contain" />
+          <Image src="/woman.png" alt="woman" fill sizes="25vm" className="object-contain" />
         </div>
       </div>
 
