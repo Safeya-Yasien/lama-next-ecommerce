@@ -31,7 +31,7 @@ const List = () => {
       {/* products */}
       <div className="mt-12">
         <h1 className="text-2xl">All Products For You!</h1>
-        <ProductList />
+        {/* <ProductList /> */}
       </div>
     </div>
   );
