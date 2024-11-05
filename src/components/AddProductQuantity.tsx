@@ -1,21 +1,22 @@
 "use client";
+import cn from "@/lib/utils";
 import React, { useState } from "react";
 
 const AddProductQuantity = () => {
-  const [ProductQuantity, setProductQuantity] = useState(1);
+  const [productQuantity, setProductQuantity] = useState(1);
 
   const stock = 4;
 
   const handleProductQuantity = (type: "i" | "d") => {
     switch (type) {
       case "i":
-        if (ProductQuantity < stock) {
-          setProductQuantity(ProductQuantity + 1);
+        if (productQuantity < stock) {
+          setProductQuantity(productQuantity + 1);
         }
         break;
       case "d":
-        if (ProductQuantity > 1) {
-          setProductQuantity(ProductQuantity - 1);
+        if (productQuantity > 1) {
+          setProductQuantity(productQuantity - 1);
         }
         break;
       default:
@@ -35,7 +36,7 @@ const AddProductQuantity = () => {
             >
               -
             </button>
-            {ProductQuantity}
+            {productQuantity}
             <button
               className="cursor-pointer text-xl disabled:cursor-not-allowed disabled:opacity-20"
               onClick={() => handleProductQuantity("i")}
@@ -46,14 +47,21 @@ const AddProductQuantity = () => {
           <div className="text-xs">
             Only{" "}
             <span className="text-orange-500">
-              {stock - ProductQuantity} items
+              {stock - productQuantity} items
             </span>{" "}
             left!
             <br /> {"Don't"} miss it
           </div>{" "}
         </div>
         {/* add to cart */}
-        <button className="w-36 text-sm rounded-3xl ring-1 ring-red-600 text-red-600 py-2 px-4 hover:bg-red-600 hover:text-white disabled:cursor-not-allowed disabled:bg-red-400 disabled:ring-0 disabled:text-white disabled:ring-none duration-300">
+        <button
+          className={cn("w-36 text-sm rounded-3xl py-2 px-4 duration-300", {
+            "bg-red-400 cursor-not-allowed": productQuantity > stock,
+            "ring-1 ring-red-600 text-red-600 hover:bg-red-600 hover:text-white":
+              productQuantity <= stock,
+          })}
+          disabled={productQuantity > stock}
+        >
           Add to Cart
         </button>
       </div>

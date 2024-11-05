@@ -29,7 +29,7 @@ const ProductImages = () => {
       <div className="relative w-full h-96">
         <Image
           src={images[currentImageIndex].url}
-          alt=""
+          alt={`Product image ${images[currentImageIndex].id}`}
           fill
           className="object-cover rounded-md"
           sizes="50vw"
@@ -44,7 +44,7 @@ const ProductImages = () => {
           >
             <Image
               src={img.url}
-              alt=""
+              alt={`Product image ${images[currentImageIndex].id}`}
               fill
               className="object-cover rounded-md"
               sizes="25vw"
