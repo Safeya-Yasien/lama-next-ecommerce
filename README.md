@@ -1,3 +1,23 @@
+# E-Commerce Application
+
+This E-Commerce Application is built with **TypeScript**, **Next.js**, and **Tailwind CSS** to deliver a modern and responsive shopping experience. It integrates with **Wix** for efficient product management and utilizes the **Context API** for streamlined state management across the application.
+
+## Features
+
+- **Responsive Design:** Fully responsive layouts built with Tailwind CSS.
+- **Product Management:** Seamless integration with Wix for handling product data.
+- **Safe Content Rendering:** DOMPurify ensures user-generated content is displayed securely.
+- **State Management:** Context API for efficient state management across components.
+
+## Technologies Used
+
+- TypeScript
+- Next.js
+- Tailwind CSS
+- Wix
+- DOMPurify
+- Context API
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
