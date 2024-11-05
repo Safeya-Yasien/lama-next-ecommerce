@@ -20,8 +20,6 @@ const ProductList = async ({
     .eq("collectionIds", categoryId)
     .find();
 
-  // console.log("resonse itmes", response.items[1]);
-
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-12 gap-x-8 gap-y-12">
       {response.items.map((product) => (
