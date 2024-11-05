@@ -4,7 +4,7 @@ This E-Commerce Application is built with **TypeScript**, **Next.js**, and **Tai
 
 ## Live Demo
 
-Explore the live demo of the application [here](https://lama-next-ecommerce.netlify.app/).
+Explore the live demo of the application <a href="https://lama-next-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Features
 
