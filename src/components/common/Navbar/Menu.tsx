@@ -23,7 +23,7 @@ const Menu = () => {
         >
           <ul className="space-y-4">
             <li>
-              <Link href="">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="">Shop</Link>

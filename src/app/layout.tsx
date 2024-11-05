@@ -4,6 +4,7 @@ import "./globals.css";
 
 import cn from "@/lib/utils";
 import { Footer, Navbar } from "@/components/common";
+import { WixClientContextProvider } from "@/context/wixContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, 'overflow-x-hidden')}>
-        <Navbar />
-        {children}
-        <Footer />
+      <body className={cn(inter.className, "overflow-x-hidden")}>
+        <WixClientContextProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </WixClientContextProvider>
       </body>
     </html>
   );

@@ -30,7 +30,7 @@ const Navbar = () => {
 
           <ul className="hidden xl:flex items-center gap-4">
             <li>
-              <Link href="">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="">Shop</Link>
