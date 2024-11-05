@@ -2,6 +2,10 @@
 
 This E-Commerce Application is built with **TypeScript**, **Next.js**, and **Tailwind CSS** to deliver a modern and responsive shopping experience. It integrates with **Wix** for efficient product management and utilizes the **Context API** for streamlined state management across the application.
 
+## Live Demo
+
+Explore the live demo of the application [here](https://lama-next-ecommerce.netlify.app/).
+
 ## Features
 
 - **Responsive Design:** Fully responsive layouts built with Tailwind CSS.
