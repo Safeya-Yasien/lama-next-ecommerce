@@ -14,7 +14,7 @@ const CategoryList = async () => {
         {categories.items.map((category) => (
           <Link
             key={category._id}
-            href={`/list?category=${category.slug}`}
+            href={`/list?cat=${category.slug}`}
             className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6 transform transition-transform duration-300 hover:scale-95"
           >
             <div className="relative w-full h-96 bg-slate-100">

@@ -6,6 +6,7 @@ import {
 import React from "react";
 
 const Slug = () => {
+
   return (
     <div className="flex flex-col lg:flex-row gap-16 justify-between  px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative">
       {/* imgs */}
