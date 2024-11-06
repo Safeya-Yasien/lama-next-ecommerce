@@ -7,7 +7,7 @@ const ProductImages = ({ items }: { items: any }) => {
 
   return (
     <>
-      <div className="relative w-full h-96">
+      <div className="h-[500px] relative">
         <Image
           src={items[currentImageIndex].image?.url}
           alt=""
@@ -16,10 +16,10 @@ const ProductImages = ({ items }: { items: any }) => {
           sizes="50vw"
         />
       </div>
-      <div className="flex gap-6 mt-12">
+      <div className="flex justify-between gap-4 mt-8">
         {items.map((item: any, index: number) => (
           <div
-            className="relative w-1/4 h-32 gap-4 mt-8 cursor-pointer"
+            className="w-1/4 h-32 relative gap-4 mt-8 cursor-pointer"
             key={item._id}
             onClick={() => setCurrentImageIndex(index)}
           >
