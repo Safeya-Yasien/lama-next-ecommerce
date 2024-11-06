@@ -16,8 +16,8 @@ const ProductList = async ({
   const wixClient = await wixClientServer();
   const response = await wixClient.products
     .queryProducts()
-    .limit(limit || PRODUCT_PRE_PAGE)
     .eq("collectionIds", categoryId)
+    .limit(limit || PRODUCT_PRE_PAGE)
     .find();
 
   return (
