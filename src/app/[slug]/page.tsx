@@ -48,7 +48,7 @@ const Slug = async ({ params }: { params: { slug: string } }) => {
         {/* colors & size*/}
         <div className="h-[2px] bg-gray-100" />
         <CustomizeProducts
-          productId={product._id}
+          productId={product._id!}
           variants={product.variants}
           productOptions={product.productOptions}
         />
